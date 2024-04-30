@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Naija</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="header-title"><a href="home.html" class="return">Health Naija</a></h1>
+    <nav>
+      <ul>
+        <li><a href="home.html" class="nav-btn">Home</a></li>
+        <li><a href="booking.html" class="nav-btn">Booking</a></li>
+        <li><a href="services.html" class="nav-btn">Services</a></li>
+        <li><a href="about us.html" class="nav-btn">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1 class="hbook">Booking An Appointment </h1>
+  <form action="sumandpayment.html" class="book">
+    <label for="serviceType">Type of Service:</label>
+    <select id="serviceType" name="serviceType" required>
+        <option value="service2">Select An option</option>
+      <option value="service2">Medical Check up</option>
+      <option value="service3">Diagnostic Testing</option>
+      <option value="service4">Specialist Consultations</option>
+      <option value="service5">Vaccinations and Immunizations</option>
+      <option value="service6">Women's Health Services</option>
+      <option value="service7">Mental Health Services</option>
+      <option value="service8">Physical Therapy</option>
+      <option value="service9">hronic Disease Management</option>
+    </select><br><br>
+    
+    <label for="time">Time:</label>
+    <select id="time" name="time" required>
+      <option value="morning">Morning</option>
+      <option value="afternoon">Afternoon</option>
+      <option value="evening">Evening</option>
+    </select><br><br>
+    <label for="hour">Hour:</label>
+    <input type="time" id="hour" name="hour" required><br><br>
+    
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+  <footer>
+    <h2><p class="footer-text">Health Naija</p></h2>
+    <p class="footer-text">Address: 123 wuse 2, Abuja, Nigeria</p>
+    <p class="footer-text">info@healthnaija.com </p>
+    <p class="footer-text">© 2024 Health Naija. All rights reserved.</p>
+  </footer>
+</body>
+</html>

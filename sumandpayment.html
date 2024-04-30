@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Naija</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="header-title"><a href="home.html" class="return">Health Naija</a></h1>
+    <nav>
+      <ul>
+        <li><a href="home.html" class="nav-btn">Home</a></li>
+        <li><a href="booking.html" class="nav-btn">Booking</a></li>
+        <li><a href="services.html" class="nav-btn">Services</a></li>
+        <li><a href="about us.html" class="nav-btn">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+<body class="pay">
+  <h1>Booking Summary</h1>
+  <h2>Order Details:</h2>
+  <p><strong>Name:</strong> John Doe</p>
+  <p><strong>Email:</strong> johndoe@example.com</p>
+  <p><strong>Phone Number:</strong> 1234567890</p>
+  <p><strong>Service Type:</strong> Medical Checkup</p>
+  <p><strong>Time:</strong> 10:00 AM</p>
+  <p><strong>Date:</strong> 2024-04-03</p>
+  
+  <h2>Payment Medium:</h2>
+  <form action="paymentconfirm.html">
+    <label for="creditCard">Credit Card</label>
+    <input type="radio" id="creditCard" name="paymentMedium" value="creditCard"><br>
+    
+    <label for="debitCard">Debit Card</label>
+    <input type="radio" id="debitCard" name="paymentMedium" value="debitCard"><br>
+    
+    <label for="bankTransfer">Bank Transfer</label>
+    <input type="radio" id="bankTransfer" name="paymentMedium" value="bankTransfer"><br>
+    
+    <input type="submit" value="Confirm Payment">
+  </form>
+  <footer>
+    <h2><p class="footer-text">Health Naija</p></h2>
+    <p class="footer-text">Address: 123 wuse 2, Abuja, Nigeria</p>
+    <p class="footer-text">info@healthnaija.com </p>
+    <p class="footer-text">© 2024 Health Naija. All rights reserved.</p>
+  </footer>
+</body>
+</html>
